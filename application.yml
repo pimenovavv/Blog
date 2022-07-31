@@ -1,0 +1,28 @@
+spring:
+  flyway:
+    enabled: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/bloginfo?createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
+    username: root
+    password: Kukusiki39_7
+jpa.hibernate.ddl-auto: none
+jpa.show-sql: true
+
+blog.title: DevPub
+blog.subtitle": Рассказы разработчиков
+blog.phone: +7 903 666-44-55
+blog.email": mail@mail.ru
+blog.copyright": Дмитрий Сергеев
+blog.copyrightFrom: 2005
+
+
+
+
+
+
+
+
+
+
+
+
